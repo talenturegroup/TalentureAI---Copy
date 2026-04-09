@@ -120,7 +120,7 @@ export default function DashboardPage() {
               </CardHeader>
               <CardContent className="flex-1 flex flex-col justify-between">
                 <p className="text-sm text-muted-foreground mb-6">
-                  AI that calls candidates to audit skills in real-time. Get instant transcripts and rankings to hire the best people faster.
+                  Candidates Pre-Screening Agent
                 </p>
                 <Link href="/tools/ai-recruiter">
                   <Button
@@ -134,7 +134,7 @@ export default function DashboardPage() {
                         Opening...
                       </>
                     ) : (
-                      'Open Tool'
+                      'Click Here to Start Your Screening'
                     )}
                   </Button>
                 </Link>
