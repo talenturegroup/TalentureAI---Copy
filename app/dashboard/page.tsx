@@ -36,7 +36,7 @@ export default function DashboardPage() {
           {/* AI Tools Grid */}
           <div className="grid gap-8 md:grid-cols-2 mb-12">
             {/* CV Assessment Report Writer Card */}
-            <Card className="flex flex-col hover:shadow-lg transition-shadow">
+            {/* <Card className="flex flex-col hover:shadow-lg transition-shadow">
               <CardHeader>
                 <CardTitle className="flex items-center gap-2">
                   <span className="w-8 h-8 bg-blue-100 rounded-lg flex items-center justify-center text-blue-600">
@@ -67,10 +67,10 @@ export default function DashboardPage() {
                   )}
                 </Button>
               </CardContent>
-            </Card>
+            </Card> */}
 
             {/* RolePlay AI Card */}
-            <Card className="flex flex-col hover:shadow-lg transition-shadow">
+            {/* <Card className="flex flex-col hover:shadow-lg transition-shadow">
               <CardHeader>
                 <CardTitle className="flex items-center gap-2">
                   <span className="w-8 h-8 bg-purple-100 rounded-lg flex items-center justify-center text-purple-600">
@@ -103,10 +103,10 @@ export default function DashboardPage() {
                   </Button>
                 </Link>
               </CardContent>
-            </Card>
+            </Card> */}
 
-            {/* AI Recruiter Card */}
-            {/* <Card className="flex flex-col hover:shadow-lg transition-shadow">
+            AI Recruiter Card
+            <Card className="flex flex-col hover:shadow-lg transition-shadow">
               <CardHeader>
                 <CardTitle className="flex items-center gap-2">
                   <span className="w-8 h-8 bg-purple-100 rounded-lg flex items-center justify-center text-purple-600">
@@ -139,7 +139,7 @@ export default function DashboardPage() {
                   </Button>
                 </Link>
               </CardContent>
-            </Card> */}
+            </Card>
           </div>
 
           {/* Quick Stats */}
