@@ -105,7 +105,7 @@ export default function DashboardPage() {
               </CardContent>
             </Card> */}
 
-            AI Recruiter Card
+            {/* AI Recruiter Card */}
             <Card className="flex flex-col hover:shadow-lg transition-shadow">
               <CardHeader>
                 <CardTitle className="flex items-center gap-2">
